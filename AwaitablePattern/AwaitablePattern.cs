@@ -19,7 +19,7 @@ namespace AwaitablePattern
 
         public bool IsCompleted
         {
-            get { return false; }
+            get { return true; }
         }
 
         //From INotifyCompletion
