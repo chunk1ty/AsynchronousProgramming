@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitablePattern", "AwaitablePattern\AwaitablePattern.csproj", "{D7E81879-F2D6-431F-BA6F-628EDE23A72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwaitablePattern", "AwaitablePattern\AwaitablePattern.csproj", "{D7E81879-F2D6-431F-BA6F-628EDE23A72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{D7358450-B51B-46BE-A3A2-752986F5FD08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication\WebApplication.csproj", "{D7358450-B51B-46BE-A3A2-752986F5FD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentValidationExceptionHandling", "ConsoleApp1\ArgumentValidationExceptionHandling.csproj", "{9B52A36B-249A-43C4-B20F-93B9F4C2C355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D7358450-B51B-46BE-A3A2-752986F5FD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7358450-B51B-46BE-A3A2-752986F5FD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7358450-B51B-46BE-A3A2-752986F5FD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
