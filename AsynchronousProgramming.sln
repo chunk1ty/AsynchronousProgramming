@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwaitablePattern", "Awaitab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication\WebApplication.csproj", "{D7358450-B51B-46BE-A3A2-752986F5FD08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentValidationExceptionHandling", "ConsoleApp1\ArgumentValidationExceptionHandling.csproj", "{9B52A36B-249A-43C4-B20F-93B9F4C2C355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgumentValidationExceptionHandling", "ConsoleApp1\ArgumentValidationExceptionHandling.csproj", "{9B52A36B-249A-43C4-B20F-93B9F4C2C355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlock", "Deadlock\Deadlock.csproj", "{4C54FDF8-BCB7-404A-AD13-2265183237C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B52A36B-249A-43C4-B20F-93B9F4C2C355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C54FDF8-BCB7-404A-AD13-2265183237C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C54FDF8-BCB7-404A-AD13-2265183237C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C54FDF8-BCB7-404A-AD13-2265183237C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C54FDF8-BCB7-404A-AD13-2265183237C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

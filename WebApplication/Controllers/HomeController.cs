@@ -26,9 +26,7 @@ namespace WebApplication.Controllers
 
         public async Task<IActionResult> Privacy()
         {
-            var task = GetString();
-            var status = task.Status;
-            var ss = task.IsCompleted;
+            var test = await GetString();
 
             return View();
         }
