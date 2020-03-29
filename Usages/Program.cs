@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Usages
@@ -9,7 +11,9 @@ namespace Usages
         {
             //Console.WriteLine("Hello World!");
 
-            ReportingProgress.CallMyMethodAsync().GetAwaiter().GetResult();
+            //ProcessTasksAsync().GetAwaiter().GetResult();
         }
+
+        
     }
 }
