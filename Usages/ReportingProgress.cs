@@ -25,7 +25,7 @@ namespace Usages
             }
         }
 
-        static async Task CallMyMethodAsync()
+        public static async Task CallMyMethodAsync()
         {
             //var progress = new Progress<int>();
 

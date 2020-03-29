@@ -11,7 +11,5 @@ namespace Usages
 
             ReportingProgress.CallMyMethodAsync().GetAwaiter().GetResult();
         }
-
-       
     }
 }
