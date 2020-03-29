@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Usages
 {
@@ -6,7 +7,11 @@ namespace Usages
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+
+            ReportingProgress.CallMyMethodAsync().GetAwaiter().GetResult();
         }
+
+       
     }
 }
