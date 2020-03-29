@@ -9,7 +9,7 @@ namespace StateMachine
     {
         public static void MainAsync()
         {
-            PrintAndWait(TimeSpan.FromSeconds(1)).Wait();
+            PrintAndWait(TimeSpan.FromSeconds(60)).Wait();
         }
 
         [AsyncStateMachine(typeof(PrintAndWaitStateMachine))]

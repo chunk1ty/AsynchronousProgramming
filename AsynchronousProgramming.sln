@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlock", "Deadlock\Deadlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine", "StateMachine\StateMachine.csproj", "{A4AB1D15-CDDE-4072-86D6-5990D2B3152F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usages", "Usages\Usages.csproj", "{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A4AB1D15-CDDE-4072-86D6-5990D2B3152F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4AB1D15-CDDE-4072-86D6-5990D2B3152F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4AB1D15-CDDE-4072-86D6-5990D2B3152F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

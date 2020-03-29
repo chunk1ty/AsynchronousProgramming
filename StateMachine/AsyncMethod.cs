@@ -7,9 +7,11 @@ namespace StateMachine
     {
         static void Main(string[] args)
         {
-            PrintAndWait(TimeSpan.FromSeconds(1)).Wait();
+            //PrintAndWait(TimeSpan.FromSeconds(1)).Wait();
 
-            //AsyncMethodDecompiled.MainAsync();
+            AsyncMethodDecompiled.MainAsync();
+
+            
         }
 
         static async Task PrintAndWait(TimeSpan delay)
