@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwaitablePattern", "AwaitablePattern\AwaitablePattern.csproj", "{D7E81879-F2D6-431F-BA6F-628EDE23A72B}"
 EndProject
@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgumentValidationException
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlock", "Deadlock\Deadlock.csproj", "{4C54FDF8-BCB7-404A-AD13-2265183237C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine", "StateMachine\StateMachine.csproj", "{A4AB1D15-CDDE-4072-86D6-5990D2B3152F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateMachine", "StateMachine\StateMachine.csproj", "{A4AB1D15-CDDE-4072-86D6-5990D2B3152F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usages", "Usages\Usages.csproj", "{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usages", "Usages\Usages.csproj", "{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0E9BD97-F9EE-4B4E-9178-5E4C0192F3BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadBlockingDemo", "src\ThreadBlockingDemo\ThreadBlockingDemo.csproj", "{6B1EF67A-BB65-476A-BBC4-749B00FDE5FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2856B87-83FE-44BC-BFD2-83CC8D60EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1EF67A-BB65-476A-BBC4-749B00FDE5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1EF67A-BB65-476A-BBC4-749B00FDE5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1EF67A-BB65-476A-BBC4-749B00FDE5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1EF67A-BB65-476A-BBC4-749B00FDE5FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B1EF67A-BB65-476A-BBC4-749B00FDE5FF} = {A0E9BD97-F9EE-4B4E-9178-5E4C0192F3BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79378369-9CE0-4136-9A3A-A1B11FD7CBC6}
